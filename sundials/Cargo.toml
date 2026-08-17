@@ -5,3 +5,6 @@ edition = "2024"
 
 [dependencies]
 sundials-sys = { path = "../sundials-sys" }
+
+[features]
+build_libraries = ["sundials-sys/build_libraries"]
